@@ -9,7 +9,11 @@ function Home() {
                 slider
             </section>
             <section className=" bg-[url('./imgs/imgs-bg/fundo-main.jpg')] bg-cover bg-no-repeat bg-center text-slate-50 h-64 flex items-center justify-center text-5xl">
-                <h1 className=" font-extrabold">CMI ENCENHARIA</h1>
+                <h1 className=" font-extrabold">CMI ENGENHARIA</h1>
+            </section>
+            <section>
+                <h1>A CMI ENGENHARIA DISPONIBILIZA VÁRIOS ITENS PARA LOCAÇÃO E VENDA, ATENDENDO ÀS NECESSIDADES DE TODO TIPO DE OBRA</h1>
+                <p>Trabalhado dessa maneira, colocamos à disposição de nossos clientes toda liberdade e transparência para desenvolvermos o melhor plano de trabalho com o melhor custo de manutenção preventiva.</p>
             </section>
         </div>
     )

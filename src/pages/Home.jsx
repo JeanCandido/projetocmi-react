@@ -25,8 +25,8 @@ function Home() {
             <section>
                 <div id="item-1">
                     <a href="#">
-                        <img src="" alt="" />
-                        <p>vcxb</p>
+                        <img src="../imgs/imgs-group/elevador-01.jpeg" alt="" />
+                        <p></p>
                     </a>
                 </div>
                 <div id="item-2"></div>

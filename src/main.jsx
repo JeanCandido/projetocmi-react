@@ -7,16 +7,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 const router = createBrowserRouter([
   {
-    path: '/projetocmi-react',
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: 'projetocmi-react/',
+        path: '/',
         element: <Home />
       },
       {
-        path: 'projetocmi-react/contato',
+        path: 'contato',
         element: <Contact />
       }
     ]

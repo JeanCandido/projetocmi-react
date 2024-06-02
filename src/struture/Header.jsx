@@ -8,32 +8,32 @@ function Header() {
 
     return(
         <header className=" bg-black  h-24 p-4 flex">
-            <div className="w-5/6">
+            <div className="w-3/5 sm:w-4/5">
                 <img src={logo} alt="logo"/>
             </div>
-            <div className="z-50 flex flex-col items-center w-1/6">
+            <div className="z-50 flex flex-col items-center w-2/5 sm:w-1/5" >
                 <button onClick={() => setMenuOpen(!menuOpen)} className=" text-slate-50 pt-6"><FaBars/></button>
 
                 {menuOpen && (
                     <nav className=" text-slate-50 h-full ml-auto w-full">
-                        <ul className=" bg-black  flex flex-col items-center w-full">
+                        <ul className=" bg-black  flex flex-col items-center w-full p-3">
                             <Link to="/">
-                                <li>Home</li>
+                                <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Home</li>
                             </Link>
                             <Link to="/empresa">
-                                <li>Empresa</li>
+                                <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Empresa</li>
                             </Link>
                             <Link to="/servicos">
-                                <li>Serviços</li>
+                                <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Serviços</li>
                             </Link>
                             <Link to="/clientes">
-                                <li>Clientes</li>
+                                <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Clientes</li>
                             </Link>
                             <Link to="/informacoes">
-                                <li>Informações</li>
+                                <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Informações</li>
                             </Link>
                             <Link to="/contato">
-                                <li>Contato</li>
+                                <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Contato</li>
                             </Link>
                         </ul>
                     </nav>

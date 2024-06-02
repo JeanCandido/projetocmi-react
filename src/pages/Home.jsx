@@ -1,3 +1,5 @@
+import Slider from "../elements/Slider"
+
 function Home() {
     return(
         <div>
@@ -8,10 +10,10 @@ function Home() {
                 </div>
             </section>
             <section className=" bg-cmi-2">
-                slider
+                <Slider />
             </section>
             <section className=" bg-[url('./imgs/imgs-bg/fundo-main.jpg')] bg-cover bg-no-repeat bg-center text-slate-50 h-64 flex items-center justify-center text-5xl">
-                <h1 className=" font-black text-4xl">CMI ENGENHARIA</h1>
+                <h1 className=" font-black text-3xl sm:text-4xl">CMI ENGENHARIA</h1>
             </section>
             <section className=" bg-cmi-2 p-4">
                 <div className=" max-w-9xl">
@@ -20,7 +22,7 @@ function Home() {
                 </div>
             </section>
             <section className=" bg-[url('./imgs/imgs-bg/fundo-exp.jpg')] bg-cover bg-no-repeat bg-center text-slate-50 h-64 flex items-center justify-center text-5xl">
-                <h1 className=" font-black text-center text-4xl">MAIS DE 13 ANOS DE EXPERIENCIA</h1>
+                <h1 className=" font-black text-center text-3xl sm:text-4xl">MAIS DE 13 ANOS DE EXPERIENCIA</h1>
             </section>
             <section>
                 <div id="item-1">

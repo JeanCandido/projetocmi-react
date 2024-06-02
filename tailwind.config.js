@@ -17,6 +17,7 @@ export default {
         'cmi-4': '#8e6d00',
       },
       maxWidth: {
+        '5xl': '576px',
         '9xl': '900px',
       },
     },

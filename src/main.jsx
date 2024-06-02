@@ -5,6 +5,7 @@ import './index.css'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: 'contato',
         element: <Contact />
+      },
+      {
+        path: 'servicos',
+        element: <Services/>
       }
     ]
   },
@@ -26,6 +31,7 @@ const router = createBrowserRouter([
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import ErrorPage from './pages/ErrorPage.jsx'
+import Services from './pages/Services.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

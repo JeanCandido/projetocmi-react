@@ -23,7 +23,7 @@ function Header() {
                             <Link to="/empresa">
                                 <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Empresa</li>
                             </Link>
-                            <Link to="/servicos">
+                            <Link to="/Servicos">
                                 <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Serviços</li>
                             </Link>
                             <Link to="/clientes">
@@ -32,7 +32,7 @@ function Header() {
                             <Link to="/informacoes">
                                 <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Informações</li>
                             </Link>
-                            <Link to="/contato">
+                            <Link to="/Contato">
                                 <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Contato</li>
                             </Link>
                         </ul>

@@ -1,3 +1,4 @@
+import Breadcrumbs from "./struture/Breadcrumbs"
 import Footer from "./struture/Footer"
 import Header from "./struture/Header"
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Header />
+      <Breadcrumbs />
       <Outlet />
       <Footer />
     </>

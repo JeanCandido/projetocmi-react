@@ -13,14 +13,14 @@ export default function Breadcrumbs() {
 
 
     if (crumbs[1] == 'servicos'){
-        text = <p className="flex items-center gap-1"><FaWrench/> Serviços</p>
+        text = <p className="flex items-center gap-1">/ <FaWrench/> Serviços</p>
     }else if(crumbs[1] == 'contato'){
-        text = <p className="flex items-center gap-1"><FaPhone/> Contato</p>
+        text = <p className="flex items-center gap-1">/ <FaPhone/> Contato</p>
     }
 
     return(
         <div className="breadcrumbs gap-1 p-4 text-zinc-600">
-            <Link to={'/'} className="flex items-center gap-1"><FaHome/>Home/{text}</Link>
+            <Link to={'/'} className="flex items-center gap-1"><FaHome/>Home{text}</Link>
         </div>
     )
 }

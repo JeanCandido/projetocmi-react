@@ -1,6 +1,6 @@
 function Services() {
     return(
-        <div className=" p-8 flex flex-col gap-8 text-zinc-700 tex">
+        <div className=" p-8 flex flex-col gap-8 text-zinc-700">
             <h1 className="text-2xl text-black font-bold">SERVIÇOS</h1>
             <h2 className=" text-2xl font-bold">Elevadores</h2>
             <p>Todo o nosso serviço é confeccionado com material de primeira qualidade, além de trabalharmos com equipamentos de última geração, garantindo aos nossos clientes maior qualidade em nossos serviços. Além da instalação, oferecemos manutenção dos equipamentos.</p>

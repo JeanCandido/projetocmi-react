@@ -22,7 +22,7 @@ export default function Contact() {
                 </div>
             </section>
             <section className=" h-80 w-80 p-4 md:h-96 md:w-3/4 max-w-96 ">
-                <iframe className="rounded-lg border-4 border-cmi-2" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=Rua%20Emilia%20Serra%20Otranto%20N%C2%BA30%20CHACARAS%20S%C3%83O%20MARTINHO,%20em%20Campinas-SP+(CMI%20Engenharia)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
+                <iframe className="rounded-lg border-4 border-cmi-2" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=CMI%20Engenharia%20rua%20emilia%20serra%20otranto+(CMI%20Engenharia)&amp;t=k&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
             </section>
         </div>
     )

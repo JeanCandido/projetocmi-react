@@ -1,4 +1,5 @@
 import { FaBuilding, FaHome, FaPhone, FaWrench } from "react-icons/fa"
+import { FaCircleInfo, FaPerson } from "react-icons/fa6"
 import { Link, useLocation } from "react-router-dom"
 
 export default function Breadcrumbs() {
@@ -18,6 +19,10 @@ export default function Breadcrumbs() {
         text = <p className="flex items-center gap-1">/ <FaPhone/> Contato</p>
     }else if(crumbs[1] == 'empresa'){
         text = <p className="flex items-center gap-1">/ <FaBuilding/> Empresa</p>
+    }else if(crumbs[1] == 'informacoes'){
+        text = <p className="flex items-center gap-1">/ <FaCircleInfo/> Informações</p>
+    }else if(crumbs[1] == 'clientes'){
+        text = <p className="flex items-center gap-1">/ <FaPerson/> Clientes</p>
     }
 
     return(

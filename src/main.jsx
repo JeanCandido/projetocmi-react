@@ -27,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: 'empresa',
         element: <Company/>
+      },
+      {
+        path: 'clientes',
+        element: <Client/>
+      },
+      {
+        path: 'informacoes',
+        element: <Information/>
       }
     ]
   },
@@ -37,6 +45,8 @@ import Contact from "./pages/Contact"
 import ErrorPage from './pages/ErrorPage.jsx'
 import Services from './pages/Services.jsx'
 import Company from './pages/Company.jsx'
+import Client from './pages/Client.jsx'
+import Information from './pages/Information.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -5,7 +5,7 @@ export default function Contact() {
             <div className=" mb-4 flex flex-col gap-4 text-center w-full">
                 <h1 className=" font-bold text-3xl md:text-4xl">Contate-nos</h1>
                 <p className=" md:text-xl">Mande uma mensagem atravéz do Whatsapp, email ou nos ligue</p>
-                <address className=" not-italic md:text-xl">Nos localizamos na Rua Emilia Serra Otranto Nº30 CHACARAS SÃO MARTINHO, em Campinas-SP</address>
+                <address className=" not-italic md:text-xl">Nos localizamos na Rua Emilia Serra Otranto Nº200 CHACARAS SÃO MARTINHO, em Campinas-SP</address>
             </div>
             <section className=" flex flex-col gap-4 text-center md:gap-16 ">
                 <div>
@@ -14,11 +14,11 @@ export default function Contact() {
                 </div>
                 <div>
                     <h2 className="mb-2 font-semibold text-xl">Entre em contato pelo Email</h2>
-                    <a href="mailto:email@provedor.com.br?subject=CMI Enganharia&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Quero fazer um orçamento de um elevador" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black">contato@cmiengenharia.com</a>
+                    <a href="mailto:email@provedor.com.br?subject=CMI Enganharia&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Quero fazer um orçamento de um elevador" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black">cmiengenharia@cmiengenharia.com</a>
                 </div>
                 <div>
                     <h2 className="mb-2 font-semibold text-xl">Nos ligue</h2>
-                    <a href=" tel:+5519982135603" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black"> (19) 982135603</a>
+                    <a href=" tel:+5519982135603" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black"> (19) 999555586</a>
                 </div>
             </section>
             <section className=" h-80 w-80 p-4 md:h-96 md:w-3/4 max-w-96 ">

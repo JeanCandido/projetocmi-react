@@ -15,10 +15,18 @@ export default {
         'cmi-2': '#DDDE1A',
         'cmi-3': '#DBC200',
         'cmi-4': '#8e6d00',
+        'gray-790': '#1f293780'
       },
       maxWidth: {
         '5xl': '576px',
         '9xl': '900px',
+        '12xl': '1200px',
+      },
+      width:{
+        'vw': '100vw'
+      },
+      height:{
+        'vh': '100vh'
       },
     },
   },

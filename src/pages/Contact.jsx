@@ -14,7 +14,7 @@ export default function Contact() {
                 </div>
                 <div>
                     <h2 className="mb-2 font-semibold text-xl">Entre em contato pelo Email</h2>
-                    <a href="mailto:email@provedor.com.br?subject=CMI Enganharia&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Quero fazer um orçamento de um elevador" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black">cmiengenharia@cmiengenharia.com</a>
+                    <a href="mailto:cmiengenharia@cmiengenharia.com?subject=CMI Enganharia&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Quero fazer um orçamento de um elevador" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black">cmiengenharia@cmiengenharia.com</a>
                 </div>
                 <div>
                     <h2 className="mb-2 font-semibold text-xl">Nos ligue</h2>

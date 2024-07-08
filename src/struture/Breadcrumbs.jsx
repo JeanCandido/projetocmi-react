@@ -23,6 +23,8 @@ export default function Breadcrumbs() {
         text = <p className="flex items-center gap-1">/ <FaCircleInfo/> Informações</p>
     }else if(crumbs[1] == 'clientes'){
         text = <p className="flex items-center gap-1">/ <FaPerson/> Clientes</p>
+    }else if(crumbs[1] == 'adequacao-elevador-cremalheira'){
+        text = <p className="flex items-center gap-1">/ <Link to={'/informacoes'} className="flex items-center gap-1"><FaCircleInfo/> Informações</Link></p>
     }
 
     return(

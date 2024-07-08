@@ -8,7 +8,7 @@ function Header() {
 
     return(
         <header className=" bg-black  h-24 p-4 flex">
-            <div className="w-3/5 sm:w-4/5">
+            <div className="w-3/5 sm:w-4/5 flex align-center">
                 <img src={logo} alt="logo"/>
             </div>
             <div className="z-50 flex flex-col items-center w-2/5 sm:w-1/5" >

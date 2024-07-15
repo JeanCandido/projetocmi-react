@@ -20,6 +20,7 @@ export default {
       maxWidth: {
         '5xl': '576px',
         '9xl': '900px',
+        '960': '960px',
         '12xl': '1200px',
       },
       width:{

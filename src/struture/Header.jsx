@@ -9,7 +9,7 @@ function Header() {
     return(
         <header className=" bg-black  h-24 p-4 flex">
             <div className="w-3/5 sm:w-4/5 flex align-center">
-                <img src={logo} alt="logo"/>
+                <Link to="/"><img src={logo} alt="logo"/></Link>
             </div>
             <div className="z-50 flex flex-col items-center w-2/5 sm:w-1/5" >
                 <button onClick={() => setMenuOpen(!menuOpen)} className=" text-slate-50 pt-6"><FaBars/></button>

@@ -10,7 +10,7 @@ export default function ClientsImgs(props) {
             </div>
             {clientOpen && (
 
-                <div className=" h-vh w-vw fixed  bg-gray-790 top-0 left-0">
+                <div className=" h-vh w-vw fixed  bg-gray-790 top-0 left-0 transition" onClick={() => setClientOpen(!clientOpen)}> 
                     <div className="opacity-100 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white shadow-md flex flex-col items-center justify-center gap-4 p-8 rounded-lg">
                         <img src={props.src} alt={props.alt} className="max-w-52 md:max-w-5xl"/>
                         <p className=" text-xl text-center">{props.alt}</p>

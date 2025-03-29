@@ -1,22 +1,22 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import logo from "../imgs/logo/logo.png"
-import { FaBars } from "react-icons/fa"
+import { FaBars, } from "react-icons/fa"
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return(
-        <header className=" bg-black  h-24 p-4 flex">
+        <header className=" bg-black  h-24 py-4 pl-4 flex">
             <div className="w-3/5 sm:w-4/5 flex align-center">
                 <Link to="/"><img src={logo} alt="logo"/></Link>
             </div>
             <div className="z-50 flex flex-col items-center w-2/5 sm:w-1/5" >
-                <button onClick={() => setMenuOpen(!menuOpen)} className=" text-slate-50 pt-6"><FaBars/></button>
+                <button id="menu" onClick={() => setMenuOpen(!menuOpen)} className=" text-slate-50 pt-6"><FaBars/></button>
 
                 {menuOpen && (
-                    <nav className=" text-slate-50 h-full ml-auto w-full">
-                        <ul className=" bg-black  flex flex-col items-center w-full p-3">
+                    <nav className=" text-slate-50 h-full ml-auto w-full ">
+                        <ul className=" bg-black  flex flex-col items-center w-full p-3 rounded-bl-lg pt-12">
                             <Link to="/">
                                 <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Home</li>
                             </Link>

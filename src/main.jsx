@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         element: <Information/>
       },
       {
-        path: '/adequacao-elevador-cremalheira',
+        path: 'adequacao-elevador-cremalheira',
         element: <RackSuitability/>
       }
     ]

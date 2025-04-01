@@ -1,42 +1,33 @@
-function Services() {
+import Service from "../elements/Service";
+
+import elevador_01 from "../imgs/imgs-group/elevador-01.jpeg";
+import elevador_02 from "../imgs/imgs-group/elevador-02.jpeg";
+import elevador_03 from "../imgs/imgs-group/elevador-03.jpeg";
+import elevador_04 from "../imgs/imgs-group/elevador-05.jpeg";
+import elevador_06 from "../imgs/imgs-group/elevador-06.jpeg";
+
+
+export default function Services() {
+    
     return(
-        <div className=" p-8 flex flex-col gap-8 text-zinc-700">
-            <h1 className="text-2xl text-black font-bold">SERVIÇOS</h1>
-            <h2 className=" text-2xl font-bold">Elevadores</h2>
-            <p>Todo o nosso serviço é confeccionado com material de primeira qualidade, além de trabalharmos com equipamentos de última geração, garantindo aos nossos clientes maior qualidade em nossos serviços. Além da instalação, oferecemos manutenção dos equipamentos.</p>
-
-            <h2 className=" text-1xl font-bold md:text-2xl">A CMI ENGENHARIA DISPONIBILIZA VÁRIOS ITENS PARA LOCAÇÃO E VENDA, ATENDENDO ÀS NECESSIDADES DE TODO TIPO DE OBRA:</h2>
-            <ul className="list-disc pl-8">
-                <li>Elevadores à Cabo, Cremalheira e Minigrua;</li>
-                <li>Escoramento;</li>
-                <li>Estrutura Tubular;</li>
-                <li>Fachadeiros e Andaimes.</li>
-            </ul>
-            <h2 className=" text-1xl font-bold md:text-2xl">TEMOS AINDA UMA VASTA RELAÇÃO DE SERVIÇOS QUE OFERECEMOS, COM PROFISSIONAIS TREINADOS E CAPACITADOS:</h2>
-            <ul className="list-disc pl-8">
-                <li>Manutenção avulsa e mensal;</li>
-                <li>Teste de freio com manutenção preventiva e corretiva;</li>
-                <li>Emissão de RT de nosso Engenheiro Mecânico.</li>
-            </ul>
-            <h2 className=" text-1xl font-bold md:text-2xl">FAZEMOS TAMBÉM REFORMA DE ELEVADORES, CERTIFICADAS PELO NOSSO ENGENHEIRO MECÂNICO, COM REGISTRO NO CREA.</h2>
-            <p>Como diferencial de mercado, oferecemos uma proposta de trabalho totalmente personalizada, de acordo com a necessidade de cada cliente. Em todos os casos, há opção por um plano de manutenção mensal, com um custo muito inferior ao padrão do mercado.</p>
-
-            <p>Trabalhado dessa maneira, colocamos à disposição de nossos clientes toda liberdade e transparência para desenvolvermos o melhor plano de trabalho com o melhor custo de manutenção preventiva.</p>
-
-            <p>Solicite um orçamento. Iremos até seu condomíno, empresa, residência ou indústria sem nenhum custo para avaliar seu equipamento e expor nossas alternativas para melhor atendê-lo.</p>
-
-            <h2 className=" text-1xl font-bold md:text-2xl">Elétrica</h2>
-            <ul className="list-disc pl-8">
-                <li>Projetos Elétricos;</li>
-                <li>Automação Industrial;</li>
-                <li>Montagem de Painéis;</li>
-                <li>Manutenção Preventiva e Corretiva;</li>
-                <li>Contrato de Prestação de Serviços;</li>
-                <li>Elétrica Industrial;</li>
-                <li>Elétrica em Geral.</li>
-            </ul>
+        <div className=" flex justify-center w-full p-8">
+            <div className=" flex flex-wrap justify-center max-w-960 flex-col gap-8">
+                <h1 className="text-3xl text-black font-bold">SERVIÇOS</h1>
+                <h2 className=" text-2xl font-bold text-zinc-700">Aluguel:</h2 >
+                <section className=" flex justify-center flex-row flex-wrap">
+                    <Service src={elevador_01} alt="ELEVADOR MINI GRUA" content="Contate-nos para aluguar"></Service>
+                    <Service src={elevador_02} alt="ELEVADOR MINI GRUA" content="Contate-nos para aluguar"></Service>
+                    <Service src={elevador_03} alt="ELEVADOR CREMALHEIRA" content="Contate-nos para aluguar"></Service>
+                </section>
+                <h2 className=" text-2xl font-bold text-zinc-700">Locação:</h2 >
+                    <section className=" flex justify-center flex-row flex-wrap">
+                        <Service src={elevador_06} alt="ELEVADOR MINI GRUA" content="Contate-nos para locar"></Service>
+                    </section>
+                <h2 className=" text-2xl font-bold text-zinc-700">Vendas:</h2 >
+                <section className=" flex justify-center flex-row flex-wrap">
+                    <Service src={elevador_04} alt="MANUTENÇÃO MINI GRUA" content="Contate-nos para Contratar"></Service>
+                </section>
+            </div>
         </div>
     )
 }
-
-export default Services

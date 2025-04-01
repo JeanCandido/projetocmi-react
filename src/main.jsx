@@ -51,7 +51,6 @@ import Services from './pages/Services.jsx'
 import Company from './pages/Company.jsx'
 import Client from './pages/Client.jsx'
 import Information from './pages/Information.jsx'
-import RackSuitability from './pages/pages-info/RackSuitability.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -32,7 +32,7 @@ function Home() {
             <section>
                 <div className=' w-full align-middle text-center pb-8 text-1xl font-bold pt-4'>
                     <h2 className='mb-8'>Confira nossos serviços.</h2>
-                    <Link to="/servicos" className='bg-cmi-3 rounded-xl p-4'>Servicos</Link>
+                    <Link to="/servicos" className='bg-cmi-3 rounded-xl p-4'>Serviços</Link>
                 </div>
             </section>
             <section className="  p-4 flex justify-center flex-col">

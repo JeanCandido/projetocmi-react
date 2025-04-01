@@ -36,10 +36,6 @@ const router = createBrowserRouter([
         path: 'informacoes',
         element: <Information/>
       },
-      {
-        path: 'adequacao-elevador-cremalheira',
-        element: <RackSuitability/>
-      }
     ]
   },
 ])

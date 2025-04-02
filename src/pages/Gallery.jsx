@@ -23,33 +23,38 @@ import video_1 from '../imgs/gallery/video-1.mp4'
 import video_2 from '../imgs/gallery/video-2.mp4'
 
 const media = [
-    { type: "video", src: video_1, content: "Video"},
-    { type: "video", src: video_2, content: "Video"},
-    { type: "image", src: img_1, content: "Imagem"},
-    { type: "image", src: img_2, content: "Imagem"},
-    { type: "image", src: img_3, content: "Imagem"},
-    { type: "image", src: img_4, content: "Imagem"},
-    { type: "image", src: img_5, content: "Imagem"},
-    { type: "image", src: img_6, content: "Imagem"},
-    { type: "image", src: img_7, content: "Imagem"},
-    { type: "image", src: img_8, content: "Imagem"},
-    { type: "image", src: img_9, content: "Imagem"},
-    { type: "image", src: img_10, content: "Imagem"},
-    { type: "image", src: img_11, content: "Imagem"},
-    { type: "image", src: img_12, content: "Imagem"},
-    { type: "image", src: img_13, content: "Imagem"},
-    { type: "image", src: img_14, content: "Imagem"},
-    { type: "image", src: img_15, content: "Imagem"},
-    { type: "image", src: img_16, content: "Imagem"},
-    { type: "image", src: img_17, content: "Imagem"},
-    { type: "image", src: img_18, content: "Imagem"},
-    { type: "image", src: img_19, content: "Imagem"},
-    { type: "image", src: img_20, content: "Imagem"},
-    { type: "image", src: img_21, content: "Imagem"},
+    { type: "video", src: video_1, content: <div className='bg-cmi-2 flex p-4 rounded mt-2 justify-center'>
+        <FaVideo/>
+    </div>},
+    { type: "video", src: video_2, content: <div className='bg-cmi-2 flex p-4 rounded mt-2 justify-center'>
+        <FaVideo/>
+    </div>},
+    { type: "image", src: img_1, content: ""},
+    { type: "image", src: img_2, content: ""},
+    { type: "image", src: img_3, content: ""},
+    { type: "image", src: img_4, content: ""},
+    { type: "image", src: img_5, content: ""},
+    { type: "image", src: img_6, content: ""},
+    { type: "image", src: img_7, content: ""},
+    { type: "image", src: img_8, content: ""},
+    { type: "image", src: img_9, content: ""},
+    { type: "image", src: img_10, content: ""},
+    { type: "image", src: img_11, content: ""},
+    { type: "image", src: img_12, content: ""},
+    { type: "image", src: img_13, content: ""},
+    { type: "image", src: img_14, content: ""},
+    { type: "image", src: img_15, content: ""},
+    { type: "image", src: img_16, content: ""},
+    { type: "image", src: img_17, content: ""},
+    { type: "image", src: img_18, content: ""},
+    { type: "image", src: img_19, content: ""},
+    { type: "image", src: img_20, content: ""},
+    { type: "image", src: img_21, content: ""},
   ];
   
 
 import { useState, useRef, useEffect } from "react";
+import { FaVideo } from 'react-icons/fa'
 
 export default function Gallery() {
   const [selectedMedia, setSelectedMedia] = useState(null);
@@ -60,10 +65,16 @@ export default function Gallery() {
       videoRef.current.play().catch((error) => console.log("Erro ao reproduzir:", error));
     }
   }, [selectedMedia]);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Faz a rolagem para o topo da página
+  }, []);
 
 
   return (
     <div className="flex flex-col items-center p-4">
+      <div className='w-full'>
+          <h1 className="text-2xl text-black font-bold mb-8">GALERIA</h1>
+      </div>
       {/* Modal */}
       {selectedMedia && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">

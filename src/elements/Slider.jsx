@@ -8,13 +8,19 @@ import elevador_02 from '../imgs/imgs-group/elevador-02.jpeg'
 import elevador_03 from '../imgs/imgs-group/elevador-03.jpeg'
 import elevador_05 from '../imgs/imgs-group/elevador-05.jpeg'
 import elevador_06 from '../imgs/imgs-group/elevador-06.jpeg'
+import elevador_07 from '../imgs/imgs-group/elevador-07.jpeg'
+import elevador_08 from '../imgs/gallery/img-30.jpeg'
+import elevador_09 from '../imgs/gallery/img-33.jpeg'
 
 const slides = [
     { image: elevador_01, text: "Reforma de elevador cremalheira" },
     { image: elevador_02, text: "Manutenção de elevadores" },
     { image: elevador_03, text: "Aluguel de elevador cremalheira" },
     { image: elevador_05, text: "Aluguel de elevador mini grua" },
-    { image: elevador_06, text: "Aluguel de elevador cremalheira"}
+    { image: elevador_06, text: "Aluguel de elevador cremalheira"},
+    { image: elevador_07, text: "Aluguel de elevador mini grua"},
+    { image: elevador_08, text: "Aluguel de elevador cremalheira"},
+    { image: elevador_09, text: "Aluguel de elevador cremalheira"}
 ]
 function Slider() {
     const carousel = useRef()

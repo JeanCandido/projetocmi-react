@@ -19,6 +19,19 @@ import img_18 from '../imgs/gallery/img-18.jpeg'
 import img_19 from '../imgs/gallery/img-19.jpeg'
 import img_20 from '../imgs/gallery/img-20.jpeg'
 import img_21 from '../imgs/gallery/img-21.jpeg'
+import img_22 from '../imgs/gallery/img-22.jpeg'
+import img_23 from '../imgs/gallery/img-23.jpeg'
+import img_24 from '../imgs/gallery/img-24.jpeg'
+import img_25 from '../imgs/gallery/img-25.jpeg'
+import img_26 from '../imgs/gallery/img-26.jpeg'
+import img_27 from '../imgs/gallery/img-27.jpeg'
+import img_28 from '../imgs/gallery/img-28.jpeg'
+import img_29 from '../imgs/gallery/img-29.jpeg'
+import img_30 from '../imgs/gallery/img-30.jpeg'
+import img_31 from '../imgs/gallery/img-31.jpeg'
+import img_32 from '../imgs/gallery/img-32.jpeg'
+import img_33 from '../imgs/gallery/img-33.jpeg'
+import img_34 from '../imgs/gallery/img-34.jpeg'
 import video_1 from '../imgs/gallery/video-1.mp4'
 import video_2 from '../imgs/gallery/video-2.mp4'
 
@@ -29,6 +42,19 @@ const media = [
     { type: "video", src: video_2, content: <div className='bg-cmi-2 flex p-4 rounded mt-2 justify-center'>
         <FaVideo/>
     </div>},
+    { type: "image", src: img_22, content: ""},
+    { type: "image", src: img_23, content: ""},
+    { type: "image", src: img_24, content: ""},
+    { type: "image", src: img_25, content: ""},
+    { type: "image", src: img_26, content: ""},
+    { type: "image", src: img_27, content: ""},
+    { type: "image", src: img_28, content: ""},
+    { type: "image", src: img_29, content: ""},
+    { type: "image", src: img_30, content: ""},
+    { type: "image", src: img_31, content: ""},
+    { type: "image", src: img_32, content: ""},
+    { type: "image", src: img_33, content: ""},
+    { type: "image", src: img_34, content: ""},
     { type: "image", src: img_1, content: ""},
     { type: "image", src: img_2, content: ""},
     { type: "image", src: img_3, content: ""},
@@ -50,6 +76,7 @@ const media = [
     { type: "image", src: img_19, content: ""},
     { type: "image", src: img_20, content: ""},
     { type: "image", src: img_21, content: ""},
+
   ];
   
 

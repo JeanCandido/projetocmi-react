@@ -36,6 +36,10 @@ const router = createBrowserRouter([
         path: 'informacoes',
         element: <Information/>
       },
+      {
+        path: 'galeria',
+        element: <Gallery/>
+      },
     ]
   },
 ])
@@ -47,6 +51,7 @@ import Services from './pages/Services.jsx'
 import Company from './pages/Company.jsx'
 import Client from './pages/Client.jsx'
 import Information from './pages/Information.jsx'
+import Gallery from './pages/Gallery.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

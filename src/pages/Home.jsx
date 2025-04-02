@@ -29,10 +29,14 @@ function Home() {
             <section className=" bg-cmi-1">
                 <Slider />
             </section>
-            <section>
+            <section className='flex p-2'>
                 <div className=' w-full align-middle text-center pb-8 text-1xl font-bold pt-4'>
                     <h2 className='mb-8'>Confira nossos serviços.</h2>
                     <Link to="/servicos" className='bg-cmi-3 rounded-xl p-4'>Serviços</Link>
+                </div>
+                <div className=' w-full align-middle text-center pb-8 text-1xl font-bold pt-4'>
+                    <h2 className='mb-8'>Confira mais fotos e videos.</h2>
+                    <Link to="/galeria" className='bg-cmi-3 rounded-xl p-4'>Galeria</Link>
                 </div>
             </section>
             <section className="  p-4 flex justify-center flex-col">

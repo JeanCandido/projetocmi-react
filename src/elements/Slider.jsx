@@ -10,15 +10,12 @@ import elevador_05 from '../imgs/imgs-group/elevador-05.jpeg'
 import elevador_06 from '../imgs/imgs-group/elevador-06.jpeg'
 
 const slides = [
-    { image: elevador_01, text: "Aluguel de elevador mini grua" },
-    { image: elevador_02, text: "Aluguel de elevador mini grua" },
+    { image: elevador_01, text: "Reforma de elevador cremalheira" },
+    { image: elevador_02, text: "Manutenção de elevadores" },
     { image: elevador_03, text: "Aluguel de elevador cremalheira" },
-    { image: elevador_05, text: "Manutenção de elevadores" },
-    { image: elevador_06, text: "jniafnf ouhfaib jbfuha frhbf ygu"}
+    { image: elevador_05, text: "Aluguel de elevador mini grua" },
+    { image: elevador_06, text: "Aluguel de elevador cremalheira"}
 ]
-
-const images = [elevador_01, elevador_02,elevador_03,elevador_05]
-
 function Slider() {
     const carousel = useRef()
     const [width, setWidth] = useState(0)
@@ -42,7 +39,7 @@ function Slider() {
                         <motion.div key={index} className=" min-h-52 min-w-64 max-w-5xl p-3.5 flex justify-center items-center">
                             <div>
                                 <Link to="/servicos">
-                                    <img src={slide.image} alt="Texto alt" className="h-[30vh] min-h-[320px] max-w-[230px] object-cover rounded-tr-xl rounded-tl-xl shadow-sm" />
+                                    <img src={slide.image} alt="Texto alt" className="h-[30vh] min-h-[320px] w-[320px] object-cover rounded-tr-xl rounded-tl-xl shadow-sm" />
                                 </Link>
                                 <p className=" bg-cmi-3 rounded-br-xl rounded-bl-xl p-4 text-center font-bold">{slide.text}</p>
                             </div>

@@ -35,6 +35,9 @@ function Header() {
                             <Link to="/contato">
                                 <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Contato</li>
                             </Link>
+                            <Link to="/galeria">
+                                <li className=" hover:bg-cmi-2 hover:text-black p-1 rounded">Galeria</li>
+                            </Link>
                         </ul>
                     </nav>
                 )}

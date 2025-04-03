@@ -1,7 +1,0 @@
-https://cmiengenharia.vercel.app/
-https://cmiengenharia.vercel.app/empresa
-https://cmiengenharia.vercel.app/servicos
-https://cmiengenharia.vercel.app/clientes
-https://cmiengenharia.vercel.app/informacoes
-https://cmiengenharia.vercel.app/contato
-https://cmiengenharia.vercel.app/galeria

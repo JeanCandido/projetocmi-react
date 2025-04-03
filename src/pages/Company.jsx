@@ -9,7 +9,7 @@ function Company() {
                     name='description'
                     content='Com sede em Campinas, São Paulo, a CMI ENGENHARIA atua com criatividade e eficiência na produção, locação e venda de elevadores (a cabo, cremalheira e minigrua).' 
                 />
-                <link rel="canonical" href="/empresa" />
+                <link rel="canonical" href="https://cmiengenharia.vercel.app/empresa" />
             </Helmet>
             <div className="max-w-9xl flex flex-col gap-8 text-zinc-700 lg:text-2xl">
                 <h1 className="text-2xl lg:text-4xl text-black font-bold pl-4">EMPRESA</h1>

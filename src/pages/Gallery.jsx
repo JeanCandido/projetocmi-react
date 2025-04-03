@@ -106,7 +106,7 @@ export default function Gallery() {
           name='description'
           content='Galeria de fotos e videos das reformas e alugueis de elevadores da CMI' 
         />
-        <link rel="canonical" href="/galeria" />
+        <link rel="canonical" href="https://cmiengenharia.vercel.app/galeria" />
       </Helmet>
       <div className='w-full'>
           <h1 className="text-2xl text-black font-bold mb-8">GALERIA</h1>

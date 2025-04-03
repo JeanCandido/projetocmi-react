@@ -25,7 +25,7 @@ function Home() {
                 name='description'
                 content='Com sede em Campinas, São Paulo, a CMI ENGENHARIA atua com criatividade e eficiência na produção, locação e venda de elevadores (a cabo, cremalheira e minigrua).' 
             />
-            <link rel="canonical" href="" />
+            <link rel="canonical" href="https://cmiengenharia.vercel.app/" />
         </Helmet>
         <div>
             <section className=" bg-[url('./imgs/imgs-bg/fundo-main.jpg')] bg-cover bg-no-repeat bg-center text-slate-50 h-64 flex items-center justify-center text-5xl">

@@ -31,7 +31,7 @@ export default function Client() {
                     name='description'
                     content='Conheça os parceiros e clientes da Cmi Engenharia.' 
                 />
-                <link rel="canonical" href="/clientes" />
+                <link rel="canonical" href="https://cmiengenharia.vercel.app/clientes" />
             </Helmet>
             <div className=" max-w-12xl">
                 <h1 className=" text-3xl font-bold ml-3">CLIENTES</h1>

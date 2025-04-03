@@ -26,7 +26,7 @@ export default function Services() {
                     name='description'
                     content='A CMI oferece serviços de aluguel, reforma e venda de elevadores(a cabo, cremalheira e mini grua).' 
                 />
-                <link rel="canonical" href="/servicos" />
+                <link rel="canonical" href="https://cmiengenharia.vercel.app/servicos" />
             </Helmet>
             <div className=" flex flex-wrap justify-center max-w-960 flex-col gap-8">
                 <h1 className="text-3xl text-black font-bold">SERVIÇOS</h1>

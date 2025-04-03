@@ -14,10 +14,20 @@ import elevador_12 from '../imgs/gallery/img-30.jpeg';
 import elevador_13 from '../imgs/gallery/img-33.jpeg';
 import elevador_14 from '../imgs/gallery/img-34.jpeg';
 
+import { Helmet } from "react-helmet-async";
+
 export default function Services() {
     
     return(
         <div className=" flex justify-center w-full p-8">
+            <Helmet>
+                <title>Serviços - Cmi Engenharia</title>
+                <meta
+                    name='description'
+                    content='A CMI oferece serviços de aluguel, reforma e venda de elevadores(a cabo, cremalheira e mini grua).' 
+                />
+                <link rel="canonical" href="/servicos" />
+            </Helmet>
             <div className=" flex flex-wrap justify-center max-w-960 flex-col gap-8">
                 <h1 className="text-3xl text-black font-bold">SERVIÇOS</h1>
                 <h2 className=" text-2xl font-bold text-zinc-700">Aluguel:</h2 >

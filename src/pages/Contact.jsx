@@ -1,7 +1,17 @@
+import { Helmet } from "react-helmet-async"
+
 export default function Contact() {
     
     return(
         <div className="p-4 flex flex-col items-center justify-center md:flex-row flex-wrap md:gap-8 md:mb-32" >
+            <Helmet>
+                <title>Contatos - Cmi Engenharia</title>
+                <meta
+                    name='description'
+                    content='Confira nossos contatos para suporte, orçamentos e parcerias.' 
+                />
+                <link rel="canonical" href="/contato" />
+            </Helmet>
             <div className=" mb-4 flex flex-col gap-4 text-center w-full">
                 <h1 className=" font-bold text-3xl md:text-4xl">Contate-nos</h1>
                 <p className=" md:text-xl">Mande uma mensagem atravéz do Whatsapp, email ou nos ligue</p>

@@ -1,6 +1,16 @@
+import { Helmet } from "react-helmet-async"
+
 export default function Information() {
     return(
         <div className=" p-8 flex flex-col gap-8 text-zinc-700">
+            <Helmet>
+                <title>Informações - Cmi Engenharia</title>
+                <meta
+                    name='description'
+                    content='Informações sobre os serviços que a cmi engenharia oferece.' 
+                />
+                <link rel="canonical" href="/informacoes" />
+            </Helmet>
             <h1 className="text-2xl text-black font-bold">INFORMAÇÕES</h1>
             <h2 className=" text-2xl font-bold">Elevadores</h2>
             <p>Todo o nosso serviço é confeccionado com material de primeira qualidade, além de trabalharmos com equipamentos de última geração, garantindo aos nossos clientes maior qualidade em nossos serviços. Além da instalação, oferecemos manutenção dos equipamentos.</p>

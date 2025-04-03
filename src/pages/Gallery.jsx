@@ -82,6 +82,7 @@ const media = [
 
 import { useState, useRef, useEffect } from "react";
 import { FaVideo } from 'react-icons/fa'
+import { Helmet } from 'react-helmet-async'
 
 export default function Gallery() {
   const [selectedMedia, setSelectedMedia] = useState(null);
@@ -99,6 +100,14 @@ export default function Gallery() {
 
   return (
     <div className="flex flex-col items-center p-4">
+      <Helmet>
+        <title>Galeria - Cmi Engenharia</title>
+        <meta
+          name='description'
+          content='Galeria de fotos e videos das reformas e alugueis de elevadores da CMI' 
+        />
+        <link rel="canonical" href="/galeria" />
+      </Helmet>
       <div className='w-full'>
           <h1 className="text-2xl text-black font-bold mb-8">GALERIA</h1>
       </div>

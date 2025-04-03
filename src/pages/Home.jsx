@@ -4,6 +4,8 @@ import Slider from "../elements/Slider"
 
 import { Link } from "react-router-dom"
 
+import { Helmet } from 'react-helmet-async';
+
 function Home() {
     useEffect(()=> {
         ScrollReveal().reveal('.element', {
@@ -16,6 +18,15 @@ function Home() {
 
 
     return(
+        <>
+        <Helmet>
+            <title>Home - Cmi Engenharia</title>
+            <meta
+                name='description'
+                content='Com sede em Campinas, São Paulo, a CMI ENGENHARIA atua com criatividade e eficiência na produção, locação e venda de elevadores (a cabo, cremalheira e minigrua).' 
+            />
+            <link rel="canonical" href="" />
+        </Helmet>
         <div>
             <section className=" bg-[url('./imgs/imgs-bg/fundo-main.jpg')] bg-cover bg-no-repeat bg-center text-slate-50 h-64 flex items-center justify-center text-5xl">
                 <h1 className=" element font-black text-3xl sm:text-4xl invisible">CMI ENGENHARIA</h1>
@@ -63,6 +74,7 @@ function Home() {
                 <div id="item-6"></div>
             </section>
         </div>
+        </>
     )
 }
 

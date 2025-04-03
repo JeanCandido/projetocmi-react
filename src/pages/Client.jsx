@@ -19,10 +19,20 @@ import Neto from "../imgs/imgs-clients/clientes-17.jpg"
 import SEGA from "../imgs/imgs-clients/clientes-18.jpg"
 import Tropical from "../imgs/imgs-clients/clientes-19.jpg"
 
+import { Helmet } from "react-helmet-async";
+
 export default function Client() {
     
     return(
         <div className=" flex flex-col items-center justify-center">
+            <Helmet>
+                <title>Clientes - Cmi Engenharia</title>
+                <meta
+                    name='description'
+                    content='Conheça os parceiros e clientes da Cmi Engenharia.' 
+                />
+                <link rel="canonical" href="/clientes" />
+            </Helmet>
             <div className=" max-w-12xl">
                 <h1 className=" text-3xl font-bold ml-3">CLIENTES</h1>
                 <p className=" text-xl font-bold ml-3">Conheça nosso clientes</p>

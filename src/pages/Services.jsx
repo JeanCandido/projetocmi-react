@@ -36,8 +36,8 @@ export default function Services() {
                 <p className=" font-bold text-zinc-700">O aluguel de elevador cremalheira permite um investimento econômico para quem precisa desse equipamento, garante segurança para a equipe de trabalhadores e qualidade operacional para a realização do projeto com toda mobilidade e rapidez.</p>
                 <p className=" font-bold text-zinc-700">O elevador cremalheira é um equipamento que utiliza um sistema dotado de um pinhão e uma cremalheira. Este sistema é acionado através do motofreio de velocidade, que trabalha para elevar a cabine. O aluguel de elevador cremalheira permite uma notável economia nas obras, e pode ser usado para fins industriais, comerciais e outros.</p>
                 <section className=" flex justify-center flex-row flex-wrap">
-                    <Service src={elevador_06} alt="ELEVADOR MINI GRUA" content1="Contate-nos para alugar"></Service>
-                    <Service src={elevador_07} alt="ELEVADOR MINI GRUA" content1="Contate-nos para alugar"></Service>
+                    <Service src={elevador_06} alt="MINI GRUA" content1="Contate-nos para alugar"></Service>
+                    <Service src={elevador_07} alt="MINI GRUA" content1="Contate-nos para alugar"></Service>
                     <Service src={elevador_03} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para alugar"></Service>
                     <Service src={elevador_11} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para alugar"></Service>
                     <Service src={elevador_08} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para alugar"></Service>
@@ -57,7 +57,6 @@ export default function Services() {
                     <Service src={elevador_02} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
                     <Service src={elevador_09} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
                     <Service src={elevador_13} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
-                    <Service src={elevador_10} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
                     <Service src={elevador_12} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
 
                 </section>

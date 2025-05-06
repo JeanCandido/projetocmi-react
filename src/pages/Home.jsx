@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import Slider from "../elements/Slider"
-import BtnService from '../elements/BtnInfo';
 
 import { Link } from "react-router-dom"
 
@@ -47,12 +46,12 @@ function Home() {
             </section>
             <section className='flex p-2'>
                 <div className=' w-full align-middle text-center pb-8 text-1xl font-bold pt-4'>
-                    <h2 className='mb-8'>Confira nossos serviços.</h2>
-                    <Link to="/servicos" className='bg-cmi-3 rounded-xl p-4'>Serviços</Link>
+                    <h2 className='mb-8'>CONFIRA NOSSOS SERVIÇOS</h2>
+                    <Link to="/servicos" className='bg-cmi-3 rounded-xl p-4'>SERVIÇOS</Link>
                 </div>
                 <div className=' w-full align-middle text-center pb-8 text-1xl font-bold pt-4'>
-                    <h2 className='mb-8'>Confira mais fotos e videos.</h2>
-                    <Link to="/galeria" className='bg-cmi-3 rounded-xl p-4'>Galeria</Link>
+                    <h2 className='mb-8'>CONFIRA MAIS FOTOS E VIDEOS</h2>
+                    <Link to="/galeria" className='bg-cmi-3 rounded-xl p-4'>GALERIA</Link>
                 </div>
             </section>
             <section className="  p-4 flex justify-center items-center flex-col">

@@ -53,11 +53,10 @@ export default function Services() {
                 <p className=" font-bold text-zinc-700">Não existe um tempo predeterminado, mas é recomendado que o consumidor procure regularmente o serviço de reforma de elevadores cremalheira. Para se ter uma ideia, hoje em dia, já existem corporações que oferecem planos mensais aos seus consumidores, assim como a CMI Engenharia.</p>
                 <p className=" font-bold text-zinc-700">Essa corporação é especializada nesse tipo de trabalho e conta uma equipe qualificada, formada e com registro no CREA. Também é importante pontuar que essa empresa é referência quando o assunto é custo baixo e alta qualidade.</p>
                 <section className=" flex justify-center flex-row flex-wrap">
-                    <Service src={elevador_01} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
-                    <Service src={elevador_02} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
-                    <Service src={elevador_09} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
-                    <Service src={elevador_13} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
-                    <Service src={elevador_12} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para locar"></Service>
+                    <Service src={elevador_01} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para Reformar"></Service>
+                    <Service src={elevador_02} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para Reformar"></Service>
+                    <Service src={elevador_09} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para Reformar"></Service>
+                    <Service src={elevador_12} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para Reformar"></Service>
 
                 </section>
                 <h2 className=" text-2xl font-bold text-zinc-700">Vendas:</h2 >
@@ -66,7 +65,8 @@ export default function Services() {
                 <p className=" font-bold text-zinc-700">Se você ficou interessado e quer conhecer melhor esse produto, não deixe de contatar a CMI Engenharia. Ela atende os seus consumidores de diferentes formas. É possível entrar em contato através do site oficial, do e-mail ou por meio do telefone da empresa.</p>
                 <section className=" flex justify-center flex-row flex-wrap">
                     <Service src={elevador_01} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para Contratar"></Service>
-                    <Service src={elevador_04} alt="MANUTENÇÃO MINI GRUA" content1="Contate-nos para contratar"></Service>
+                    <Service src={elevador_04} alt="MANUTENÇÃO MINI GRUA" content1="Contate-nos para Contratar"></Service>
+                    <Service src={elevador_13} alt="ELEVADOR CREMALHEIRA" content1="Contate-nos para Contratar"></Service>
                 </section>
             </div>
         </div>

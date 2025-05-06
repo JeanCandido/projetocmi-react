@@ -27,7 +27,7 @@ function Home() {
             />
             <meta
                 name='keywords'
-                content='Reforma elevador cremalheira, Venda elevador cremalheira, Alugar elevador cremmalheira, obras residenciais, obras comerciais, CMI, construção civil, engenharia civil'
+                content='Reforma elevador cremalheira, Venda elevador cremalheira, Alugar elevador cremmalheira, elevador de obra, obras residenciais,cremalheira obra, CMI, construção civil, engenharia civil, elevador usado para comprar, '
             />
             <link rel="canonical" href="https://cmiengenharia.com.br/" />
         </Helmet>

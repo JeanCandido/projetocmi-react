@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import Slider from "../elements/Slider"
+import BtnService from '../elements/BtnInfo';
 
 import { Link } from "react-router-dom"
 
@@ -23,7 +24,11 @@ function Home() {
             <title>Home - Cmi Engenharia</title>
             <meta
                 name='description'
-                content='Com sede em Campinas, São Paulo, a CMI ENGENHARIA atua com criatividade e eficiência na produção, locação e venda de elevadores (a cabo, cremalheira e minigrua).' 
+                content='Com sede em Campinas, São Paulo, a CMI ENGENHARIA atua com criatividade e eficiência na produção, locação e venda de elevadores (a cabo, cremalheira e minigrua).'
+            />
+            <meta
+                name='keywords'
+                content='Reforma elevador cremalheira, Venda elevador cremalheira, Alugar elevador cremmalheira, obras residenciais, obras comerciais, CMI, construção civil, engenharia civil'
             />
             <link rel="canonical" href="https://cmiengenharia.vercel.app/" />
         </Helmet>
@@ -50,7 +55,7 @@ function Home() {
                     <Link to="/galeria" className='bg-cmi-3 rounded-xl p-4'>Galeria</Link>
                 </div>
             </section>
-            <section className="  p-4 flex justify-center flex-col">
+            <section className="  p-4 flex justify-center items-center flex-col">
                 
                 <div className=" max-w-9xl">
                     <h1 className=" font-bold text-center sm:text-xl lg:text-2xl">A CMI ENGENHARIA DISPONIBILIZA VÁRIOS ITENS PARA ALUGUEL, LOCAÇÃO E VENDA, ATENDENDO ÀS NECESSIDADES DE TODO TIPO DE OBRA</h1>

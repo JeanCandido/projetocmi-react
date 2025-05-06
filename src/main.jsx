@@ -52,7 +52,6 @@ import Company from './pages/Company.jsx'
 import Client from './pages/Client.jsx'
 import Information from './pages/Information.jsx'
 import Gallery from './pages/Gallery.jsx'
-import BtnService from './elements/BtnInfo.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

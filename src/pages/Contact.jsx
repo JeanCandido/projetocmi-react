@@ -10,7 +10,7 @@ export default function Contact() {
                     name='description'
                     content='Confira nossos contatos para suporte, orçamentos e parcerias.' 
                 />
-                <link rel="canonical" href="https://cmiengenharia.vercel.app/contato" />
+                <link rel="canonical" href="https://cmiengenharia.com.br/contato" />
             </Helmet>
             <div className=" mb-4 flex flex-col gap-4 text-center w-full">
                 <h1 className=" font-bold text-3xl md:text-4xl">Contate-nos</h1>

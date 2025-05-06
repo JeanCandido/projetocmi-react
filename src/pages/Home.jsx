@@ -29,7 +29,7 @@ function Home() {
                 name='keywords'
                 content='Reforma elevador cremalheira, Venda elevador cremalheira, Alugar elevador cremmalheira, obras residenciais, obras comerciais, CMI, construção civil, engenharia civil'
             />
-            <link rel="canonical" href="https://cmiengenharia.vercel.app/" />
+            <link rel="canonical" href="https://cmiengenharia.com.br/" />
         </Helmet>
         <div>
             <section className=" bg-[url('./imgs/imgs-bg/fundo-main.jpg')] bg-cover bg-no-repeat bg-center text-slate-50 h-64 flex items-center justify-center text-5xl">

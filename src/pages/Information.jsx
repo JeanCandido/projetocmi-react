@@ -9,7 +9,7 @@ export default function Information() {
                     name='description'
                     content='Informações sobre os serviços que a cmi engenharia oferece.' 
                 />
-                <link rel="canonical" href="https://cmiengenharia.vercel.app/informacoes" />
+                <link rel="canonical" href="https://cmiengenharia.com.br/informacoes" />
             </Helmet>
             <h1 className="text-2xl text-black font-bold">INFORMAÇÕES</h1>
             <h2 className=" text-2xl font-bold">Elevadores</h2>

@@ -1,5 +1,12 @@
 RewriteEngine On
 RewriteBase /
+
+# Redireciona para https://www.cmiengenharia.com
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\.cmiengenharia\.com$ [NC]
+RewriteRule ^(.*)$ https://www.cmiengenharia.com/$1 [L,R=301]
+
+# Regras do SPA (React, Vue, etc.)
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

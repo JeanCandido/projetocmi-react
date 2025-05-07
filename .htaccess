@@ -4,6 +4,3 @@ RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
-RewriteCond %{HTTP_HOST} ^cmiengenharia.com.br [NC,OR]
-
-RewriteRule ^(.*)$ https://www.cmiengenharia.com.br/$1 [L,R=301,NC]

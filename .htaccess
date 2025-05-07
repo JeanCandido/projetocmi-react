@@ -6,6 +6,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
 RewriteCond %{HTTP_HOST} ^cmiengenharia.com.br [NC,OR]
 
-RewriteCond %{HTTP_HOST} ^www.cmiengenharia.com.br [NC]
-
 RewriteRule ^(.*)$ https://www.cmiengenharia.com.br/$1 [L,R=301,NC]

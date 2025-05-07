@@ -81,7 +81,7 @@ const media = [
   
 
 import { useState, useRef, useEffect } from "react";
-import { FaVideo } from 'react-icons/fa'
+import { FaVideo, FaRegFolder } from 'react-icons/fa'
 import { Helmet } from 'react-helmet-async'
 
 export default function Gallery() {
@@ -143,6 +143,7 @@ export default function Gallery() {
 
       {/* Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        
         {media.map((item, index) => (
           <div
             key={index}

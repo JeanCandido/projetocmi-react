@@ -5,3 +5,5 @@ https://cmiengenharia.vercel.app/clientes
 https://cmiengenharia.vercel.app/informacoes
 https://cmiengenharia.vercel.app/contato
 https://cmiengenharia.vercel.app/galeria
+https://www.cmiengenharia.com.br/assets/video-1-BkSJlHX_.mp4
+https://www.cmiengenharia.com.br/assets/video-2-BOliqqmD.mp4

@@ -144,8 +144,8 @@ export default function Gallery() {
 
       {/* Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-        <div className='bg-cmi-2 rounded-lg flex items-center justify-center text-3xl flex-col cursor-pointer'>
-          <Link to='vendas-midas'>
+        <div className='bg-cmi-2 rounded-lg flex items-center justify-center text-3xl  cursor-pointer hover:scale-105 transition-transform'>
+          <Link to='vendas-midas' className='flex items-center justify-center flex-col'>
             <FaRegFolder/>
             <p className='pt-4 font-bold'>Venda Midas</p>
           </Link>

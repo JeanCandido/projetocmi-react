@@ -40,6 +40,10 @@ const router = createBrowserRouter([
         path: 'galeria',
         element: <Gallery/>
       },
+      {
+        path: 'galeria/vendas-midas',
+        element: <Midas/>
+      }
     ]
   },
 ])
@@ -52,6 +56,7 @@ import Company from './pages/Company.jsx'
 import Client from './pages/Client.jsx'
 import Information from './pages/Information.jsx'
 import Gallery from './pages/Gallery.jsx'
+import Midas from './pages/FoldersGallery/Midas.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

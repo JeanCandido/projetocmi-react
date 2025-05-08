@@ -83,6 +83,7 @@ const media = [
 import { useState, useRef, useEffect } from "react";
 import { FaVideo, FaRegFolder } from 'react-icons/fa'
 import { Helmet } from 'react-helmet-async'
+import { Link } from 'react-router-dom'
 
 export default function Gallery() {
   const [selectedMedia, setSelectedMedia] = useState(null);
@@ -143,7 +144,12 @@ export default function Gallery() {
 
       {/* Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-        
+        <div className='bg-cmi-2 rounded-lg flex items-center justify-center text-3xl flex-col cursor-pointer'>
+          <Link to='vendas-midas'>
+            <FaRegFolder/>
+            <p className='pt-4 font-bold'>Venda Midas</p>
+          </Link>
+        </div>
         {media.map((item, index) => (
           <div
             key={index}

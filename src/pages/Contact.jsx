@@ -20,7 +20,7 @@ export default function Contact() {
             <section className=" flex flex-col gap-4 text-center md:gap-16 ">
                 <div>
                     <h2 className="mb-2 font-semibold text-xl">Entre em contato pelo Whatsapp</h2>
-                    <a href="https://wa.me/5519982135603?text=Gostaria de contratar um serviço" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black">Whatsapp</a>
+                    <a href="https://wa.me/5519999555586?text=Gostaria de contratar um serviço" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black">Whatsapp</a>
                 </div>
                 <div>
                     <h2 className="mb-2 font-semibold text-xl">Entre em contato pelo Email</h2>
@@ -28,7 +28,7 @@ export default function Contact() {
                 </div>
                 <div>
                     <h2 className="mb-2 font-semibold text-xl">Nos ligue</h2>
-                    <a href=" tel:+5519982135603" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black"> (19) 999555586</a>
+                    <a href=" tel:+5519999555586" className=" bg-black p-2 rounded-lg text-slate-50 hover:bg-cmi-1 hover:text-black"> (19) 999555586</a>
                 </div>
             </section>
             <section className=" h-80 w-80 p-4 md:h-96 md:w-3/4 max-w-96 ">

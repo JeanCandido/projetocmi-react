@@ -147,7 +147,7 @@ export default function Gallery() {
         <div className='bg-cmi-2 rounded-lg flex items-center justify-center text-3xl  cursor-pointer hover:scale-105 transition-transform'>
           <Link to='vendas-midas' className='flex items-center justify-center flex-col'>
             <FaRegFolder/>
-            <p className='pt-4 font-bold'>Venda Midas</p>
+            <p className='pt-4 text-center font-bold'>Venda Midas</p>
           </Link>
         </div>
         {media.map((item, index) => (

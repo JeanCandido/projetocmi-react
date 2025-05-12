@@ -20,7 +20,6 @@ RewriteRule ^empresas-elevadores-construcao-civil\.html$ /servicos [R=301,L]
 RewriteRule ^empresas-elevadores-obra\.html$ /servicos [R=301,L]
 
 # Novos redirecionamentos adicionados para /servicos
-RewriteRule ^404\.html$ /servicos [R=301,L]
 RewriteRule ^adquacao-elevador-cremalheira-norma-nrb-16200\.html$ /servicos [R=301,L]
 RewriteRule ^aluguel-elevador-cremalheira\.html$ /servicos [R=301,L]
 RewriteRule ^aluguel-elevadores-construcao-civil\.html$ /servicos [R=301,L]

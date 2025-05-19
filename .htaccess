@@ -8,7 +8,6 @@ RewriteRule ^(.*)$ https://www.cmiengenharia.com.br/$1 [L,R=301]
 
 # Redirecionamentos específicos para /servicos
 RewriteRule ^elevador-cremalheira-locacao-venda\.html$ /servicos [R=301,L]
-RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^empresas-especializada-elevadores-cremalheira\.html$ /servicos [R=301,L]
 RewriteRule ^manutencao-mini-grua\.html$ /servicos [R=301,L]
 RewriteRule ^instalacao-elevador-cremalheira\.html$ /servicos [R=301,L]
